@@ -1,0 +1,134 @@
+.main-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.r-left-side{
+    flex: 0.33;
+    background: #FFEA00;
+}
+
+.r-header{
+    height: 18rem;
+    margin-top: 0.5rem;
+}
+
+.r-logo-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.r-body{
+    height: 25rem;
+    margin-top: 2rem;
+}
+
+.reg-img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    background: white;
+}
+
+.r-body p{
+    color: orange;
+    padding: 1.8rem 0.8rem;
+    text-align: left;
+    font-size: smaller;
+}
+
+.r-right-side{
+    flex: 0.67;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.top-right{
+    float: right;
+    margin-right: 1.5rem;
+    font-size: small;
+    font-weight: 200;
+}
+
+.body-right{
+    height: 100%;
+    width: 100%;
+}
+
+.r-contain{
+    height: 100%;
+    width: 60%;
+    margin: 2rem auto;
+    box-shadow: 0rem 0rem 2rem 0.1rem #FFEA00;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group{
+    width: 60%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group label{
+    font-size: small;
+    font-weight: 450;
+    color: orangered;
+    position:absolute;
+    left: 20%;
+    top: 0.5rem;
+    margin: 0.5rem auto;
+    background: white;
+}
+
+.input-group input{
+    margin: 1.5rem auto;
+    width: 100%;
+    border: none;
+    padding:0.5rem 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem gray;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-group input:focus{
+    outline: none;
+    box-shadow: 0.5rem 0.5rem 1rem 0.1rem gray;
+}
+
+.input-group input:hover{
+    outline: none;
+    box-shadow: 0.5rem 0.5rem 1rem 0.1rem gray;
+}
+
+ #sbtn{
+    width: 80%;
+    background: linear-gradient(to right,#1DA7DD 20%, #E25822 50%);
+    color: black;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+ #sbtn:hover{
+    box-shadow: 0.5rem 0.5rem 1rem 0.1rem gray;
+    cursor: pointer;
+}
+
+
+.login-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: orangered;
+}

@@ -1,0 +1,22 @@
+export const SliderData = [
+    {
+      image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_ax8GPnWedFgZugrOXU2GHi1XbRzTF1qUTQ&usqp=CAU'
+    },
+    {
+      image:
+        'https://img.redbull.com/images/c_crop,w_1698,h_849,x_12,y_338,f_auto,q_auto/c_scale,w_1200/redbullcom/2019/02/19/44ef1636-4f7c-4791-8762-a70938768027/car-modification-trends-predictions-2019'
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
+    },
+    {
+      image:
+        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
+    }
+  ];
